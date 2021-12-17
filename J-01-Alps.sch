@@ -1,4 +1,114 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 61BBF835
+P 5500 3150
+F 0 "U1" H 5500 1261 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 5500 1170 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5500 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61BC16E3
+P 5400 1200
+F 0 "#PWR?" H 5400 1050 50  0001 C CNN
+F 1 "+5V" H 5415 1373 50  0000 C CNN
+F 2 "" H 5400 1200 50  0001 C CNN
+F 3 "" H 5400 1200 50  0001 C CNN
+	1    5400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1200 5400 1350
+Wire Wire Line
+	5400 1350 5500 1350
+Connection ~ 5400 1350
+Connection ~ 5500 1350
+Wire Wire Line
+	5500 1350 5600 1350
+$Comp
+L Device:R_Small R6
+U 1 1 61BC296D
+P 6650 3750
+F 0 "R6" V 6454 3750 50  0000 C CNN
+F 1 "10k" V 6545 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 6650 3750 50  0001 C CNN
+F 3 "~" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3750 6550 3750
+$Comp
+L power:GND #PWR?
+U 1 1 61BC3609
+P 7200 3750
+F 0 "#PWR?" H 7200 3500 50  0001 C CNN
+F 1 "GND" H 7205 3577 50  0000 C CNN
+F 2 "" H 7200 3750 50  0001 C CNN
+F 3 "" H 7200 3750 50  0001 C CNN
+	1    7200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3750 7200 3750
+$Comp
+L power:GND #PWR?
+U 1 1 61BC3DB0
+P 5000 4950
+F 0 "#PWR?" H 5000 4700 50  0001 C CNN
+F 1 "GND" H 5005 4777 50  0000 C CNN
+F 2 "" H 5000 4950 50  0001 C CNN
+F 3 "" H 5000 4950 50  0001 C CNN
+	1    5000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4950 5400 4950
+Connection ~ 5400 4950
+Wire Wire Line
+	5400 4950 5500 4950
+$Comp
+L Device:C_Small C?
+U 1 1 61BC454C
+P 4200 3050
+F 0 "C?" H 4292 3096 50  0000 L CNN
+F 1 "C_Small" H 4292 3005 50  0000 L CNN
+F 2 "" H 4200 3050 50  0001 C CNN
+F 3 "~" H 4200 3050 50  0001 C CNN
+	1    4200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2950 4900 2950
+$Comp
+L power:GND #PWR?
+U 1 1 61BC5372
+P 4200 3350
+F 0 "#PWR?" H 4200 3100 50  0001 C CNN
+F 1 "GND" H 4205 3177 50  0000 C CNN
+F 2 "" H 4200 3350 50  0001 C CNN
+F 3 "" H 4200 3350 50  0001 C CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3350 4200 3150
 $EndSCHEMATC
