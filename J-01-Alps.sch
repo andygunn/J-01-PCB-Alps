@@ -101,16 +101,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 61BC5372
-P 4200 3350
-F 0 "#PWR0104" H 4200 3100 50  0001 C CNN
-F 1 "GND" H 4205 3177 50  0000 C CNN
-F 2 "" H 4200 3350 50  0001 C CNN
-F 3 "" H 4200 3350 50  0001 C CNN
-	1    4200 3350
+P 4200 3300
+F 0 "#PWR0104" H 4200 3050 50  0001 C CNN
+F 1 "GND" H 4205 3127 50  0000 C CNN
+F 2 "" H 4200 3300 50  0001 C CNN
+F 3 "" H 4200 3300 50  0001 C CNN
+	1    4200 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 3350 4200 3150
 $Comp
 L Connector_Generic:Conn_01x04 JST2
 U 1 1 61BC0430
@@ -136,44 +134,44 @@ $EndComp
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 61BC3615
-P 2200 1400
-F 0 "F1" V 1995 1400 50  0000 C CNN
-F 1 "Polyfuse_Small" V 2086 1400 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2250 1200 50  0001 L CNN
-F 3 "~" H 2200 1400 50  0001 C CNN
-	1    2200 1400
+P 1750 3700
+F 0 "F1" V 1545 3700 50  0000 C CNN
+F 1 "Polyfuse_Small" V 1636 3700 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1800 3500 50  0001 L CNN
+F 3 "~" H 1750 3700 50  0001 C CNN
+	1    1750 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small RC1
 U 1 1 61BC52CD
-P 3050 1500
-F 0 "RC1" V 2854 1500 50  0000 C CNN
-F 1 "22" V 2945 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3050 1500 50  0001 C CNN
-F 3 "~" H 3050 1500 50  0001 C CNN
-	1    3050 1500
+P 3000 1500
+F 0 "RC1" V 2804 1500 50  0000 C CNN
+F 1 "22" V 2895 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3000 1500 50  0001 C CNN
+F 3 "~" H 3000 1500 50  0001 C CNN
+	1    3000 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small RC2
 U 1 1 61BC5632
-P 3050 1600
-F 0 "RC2" V 2950 1600 50  0000 C CNN
-F 1 "22" V 2850 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3050 1600 50  0001 C CNN
-F 3 "~" H 3050 1600 50  0001 C CNN
-	1    3050 1600
+P 3000 1600
+F 0 "RC2" V 2900 1600 50  0000 C CNN
+F 1 "22" V 2800 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3000 1600 50  0001 C CNN
+F 3 "~" H 3000 1600 50  0001 C CNN
+	1    3000 1600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3500 1500 2    50   Output ~ 0
+Text GLabel 3300 1500 2    50   Output ~ 0
 D-
-Text GLabel 3500 1600 2    50   Output ~ 0
+Text GLabel 3300 1600 2    50   Output ~ 0
 D+
 Wire Wire Line
-	3150 1500 3500 1500
+	3100 1500 3300 1500
 Wire Wire Line
-	3150 1600 3500 1600
+	3100 1600 3300 1600
 Text GLabel 4900 2650 0    50   Input ~ 0
 D+
 Text GLabel 4900 2750 0    50   Input ~ 0
@@ -408,16 +406,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0111
 U 1 1 61BE4541
-P 2650 1400
-F 0 "#PWR0111" H 2650 1250 50  0001 C CNN
-F 1 "+5V" H 2665 1573 50  0000 C CNN
-F 2 "" H 2650 1400 50  0001 C CNN
-F 3 "" H 2650 1400 50  0001 C CNN
-	1    2650 1400
+P 2150 3700
+F 0 "#PWR0111" H 2150 3550 50  0001 C CNN
+F 1 "+5V" H 2165 3873 50  0000 C CNN
+F 2 "" H 2150 3700 50  0001 C CNN
+F 3 "" H 2150 3700 50  0001 C CNN
+	1    2150 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 1400 2650 1400
+	1850 3700 2150 3700
 Wire Wire Line
 	1450 1500 2600 1500
 $Comp
@@ -448,55 +446,103 @@ Wire Wire Line
 	1600 2400 1600 1600
 Connection ~ 1600 1600
 Wire Wire Line
-	1600 1600 2950 1600
+	1600 1600 2900 1600
 Wire Wire Line
 	2600 2400 2600 1500
 Connection ~ 2600 1500
 Wire Wire Line
-	2600 1500 2950 1500
-$Comp
-L power:VCC #PWR0114
-U 1 1 61BEE6C5
-P 2100 1900
-F 0 "#PWR0114" H 2100 1750 50  0001 C CNN
-F 1 "VCC" H 2115 2073 50  0000 C CNN
-F 2 "" H 2100 1900 50  0001 C CNN
-F 3 "" H 2100 1900 50  0001 C CNN
-	1    2100 1900
-	1    0    0    -1  
-$EndComp
+	2600 1500 2900 1500
 $Sheet
 S 8700 1400 1300 1200
 U 61BF561A
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
-Text GLabel 6750 2650 2    50   Input ~ 0
+Text GLabel 6100 1950 2    50   Input ~ 0
 ROW0
-Text GLabel 6750 2750 2    50   Input ~ 0
+Text GLabel 6100 1850 2    50   Input ~ 0
 ROW1
-Text GLabel 6750 2850 2    50   Input ~ 0
+Text GLabel 6100 1650 2    50   Input ~ 0
 ROW2
-Text GLabel 6750 2950 2    50   Input ~ 0
+Text GLabel 6100 4450 2    50   Input ~ 0
 ROW3
-Text GLabel 6750 3050 2    50   Input ~ 0
+Text GLabel 6100 4350 2    50   Input ~ 0
 ROW4
-Text GLabel 6750 2350 2    50   Input ~ 0
+Text GLabel 6100 1750 2    50   Input ~ 0
 COL0
-Text GLabel 6750 2250 2    50   Input ~ 0
+Text GLabel 6100 4050 2    50   Input ~ 0
 COL1
-Text GLabel 6750 2150 2    50   Input ~ 0
+Text GLabel 6100 4550 2    50   Input ~ 0
 COL2
-Text GLabel 6750 2050 2    50   Input ~ 0
+Text GLabel 6100 4150 2    50   Input ~ 0
 COL3
-Text GLabel 6750 1950 2    50   Input ~ 0
+Text GLabel 6100 4250 2    50   Input ~ 0
 COL4
-Text GLabel 6750 1850 2    50   Input ~ 0
+Text GLabel 6100 2650 2    50   Input ~ 0
 COL5
-Text GLabel 6750 1750 2    50   Input ~ 0
+Text GLabel 6100 2550 2    50   Input ~ 0
 COL6
-Text GLabel 6750 1650 2    50   Input ~ 0
+Text GLabel 6100 2250 2    50   Input ~ 0
 COL7
+Text GLabel 6100 2150 2    50   Input ~ 0
+COL8
+Text GLabel 6100 3450 2    50   Input ~ 0
+COL11
+Text GLabel 6100 3350 2    50   Input ~ 0
+COL13
+Text GLabel 6100 3250 2    50   Input ~ 0
+COL12
+Text GLabel 6100 2050 2    50   Input ~ 0
+COL9
+Text GLabel 6100 3550 2    50   Input ~ 0
+COL10
+Text GLabel 6100 3150 2    50   Input ~ 0
+COL14
+Text GLabel 6100 3050 2    50   Input ~ 0
+COL15
+Text GLabel 6100 2950 2    50   Input ~ 0
+COL16
+Text GLabel 6100 2850 2    50   Input ~ 0
+COL17
+NoConn ~ 6100 3850
+NoConn ~ 6100 2350
+$Comp
+L power:VCC #PWR0114
+U 1 1 61F1803F
+P 1300 3700
+F 0 "#PWR0114" H 1300 3550 50  0001 C CNN
+F 1 "VCC" H 1315 3873 50  0000 C CNN
+F 2 "" H 1300 3700 50  0001 C CNN
+F 3 "" H 1300 3700 50  0001 C CNN
+	1    1300 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1450 1400 2100 1400
+	1300 3700 1650 3700
+$Comp
+L power:VCC #PWR0115
+U 1 1 61F1B227
+P 2000 1400
+F 0 "#PWR0115" H 2000 1250 50  0001 C CNN
+F 1 "VCC" H 2015 1573 50  0000 C CNN
+F 2 "" H 2000 1400 50  0001 C CNN
+F 3 "" H 2000 1400 50  0001 C CNN
+	1    2000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1400 2000 1400
+$Comp
+L power:VCC #PWR0116
+U 1 1 61F1C94A
+P 2100 1900
+F 0 "#PWR0116" H 2100 1750 50  0001 C CNN
+F 1 "VCC" H 2115 2073 50  0000 C CNN
+F 2 "" H 2100 1900 50  0001 C CNN
+F 3 "" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3300 4200 3150
 $EndSCHEMATC
