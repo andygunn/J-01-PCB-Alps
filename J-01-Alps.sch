@@ -126,7 +126,7 @@ U 1 1 61BC1A5E
 P 2100 2400
 F 0 "U4" H 2644 2446 50  0000 L CNN
 F 1 "PRTR5V0U2X" H 2644 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 2160 2400 50  0001 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 2160 2400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 2160 2400 50  0001 C CNN
 	1    2100 2400
 	1    0    0    -1  
@@ -458,10 +458,6 @@ U 61BF561A
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
-Text GLabel 6100 1950 2    50   Input ~ 0
-ROW0
-Text GLabel 6100 1850 2    50   Input ~ 0
-ROW1
 Text GLabel 6100 1650 2    50   Input ~ 0
 ROW2
 Text GLabel 6100 4450 2    50   Input ~ 0
@@ -545,4 +541,8 @@ F 3 "" H 2100 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3300 4200 3150
+Text GLabel 6100 1950 2    50   Input ~ 0
+ROW0
+Text GLabel 6100 1850 2    50   Input ~ 0
+ROW1
 $EndSCHEMATC
