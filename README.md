@@ -13,7 +13,7 @@ Some notable changes from the original J-01 rev1 PCB:
 - The spacing of the 6U spacebar stabilizer is different. I am not sure if the original PCB has these incorrect, or if I am using a different 6U spacebar stabilizer footprint, but that is a discrepancy.
 
 Front render:
-![Render of front of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_render_front.png?token=GHSAT0AAAAAABOQ4XPGIGD7XHSUWNEJTQ6CYOZZFXQ)
+![Render of front of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/ATmega32U4-MU/renders/J-01_Alps_render_front.png)
 
 Back render:
-![Render of back of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_render_back.png?token=GHSAT0AAAAAABOQ4XPHWQAULH3V4LLZ7KI4YOZZFUQ)
+![Render of back of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/ATmega32U4-MU/renders/J-01_Alps_render_back.png)
