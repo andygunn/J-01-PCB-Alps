@@ -2413,6 +2413,12 @@
     (path "/00000000-0000-0000-0000-000061bf561a/00000000-0000-0000-0000-000061f04b1a"
       (reference "SW-ISOEN1") (unit 1) (value "MX_Alps-ISO") (footprint "Alps_Only:ALPS-ISO-FLIPPED")
     )
+    (path "/00000000-0000-0000-0000-000061bf561a/8aed9946-fbec-4ad9-ad42-a12ea0775cda"
+      (reference "SW-ISOEN2") (unit 1) (value "MX_Alps-ISO") (footprint "Alps_Only:ALPS-1U")
+    )
+    (path "/00000000-0000-0000-0000-000061bf561a/95e9289c-4aa1-4786-a363-ca5c09414d2d"
+      (reference "SW-ISOEN3") (unit 1) (value "MX_Alps-ISO") (footprint "Alps_Only:ALPS-1U")
+    )
     (path "/00000000-0000-0000-0000-000061bf561a/00000000-0000-0000-0000-000061d1501d"
       (reference "SW-J1") (unit 1) (value "MX_Alps-1U") (footprint "Alps_Only:ALPS-1U")
     )
