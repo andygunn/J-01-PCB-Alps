@@ -16,7 +16,7 @@ Some notable changes from the original J-01 rev1 PCB:
 I provide this PCB without liability and without any guarantees regarding functionality, as expressed in the licenses under which this PCB is licensed.
 
 Front render:
-![Render of front of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/ATmega32U4-MU/renders/J-01_Alps_render_front.png)
+![Render of front of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/renders/J-01_Alps_render_front.png)
 
 Back render:
-![Render of back of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/ATmega32U4-MU/renders/J-01_Alps_render_back.png)
+![Render of back of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/renders/J-01_Alps_render_back.png)
