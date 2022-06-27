@@ -6,6 +6,7 @@ While it lacks support for MX switches, it has Alps switch support and the follo
 - Full bottom row support per the options in Via (see the following [Keyboard Layout](http://www.keyboard-layout-editor.com/#/gists/1aa1c3e0d55bc183d22bc74a1a26bc83) for more information).
 - Normal, split, and 3800-style Capslock footprints.
 - ISO Enter support - including for 1.25U vertical and horizontal rotation (Matias, DCS?), and 1.5U vertical orientation (Dell AT102).
+- Some hand-solderable SMT component support, though this branch uses the ATmega32U4-MU variant instead of the larger -AU variant.
 - This PCB maintains PCB-mount MX stabilizer support, as most modern Alps keysets relased now have MX-style stabilizers. Using a plate with MX-style stabilizer cutouts will be requried to use those.
 
 Some notable changes from the original J-01 rev1 PCB:
