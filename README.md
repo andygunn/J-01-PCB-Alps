@@ -13,7 +13,7 @@ Some notable changes from the original J-01 rev1 PCB:
 - Dual ground planes, instead of the GND / 5V plane on the original. It appears that the 5V ground plane on the original facilitated easier routing of the LED 5V signal, as well as power to the MCU. Since this Alps version of the PCB does not utilize in-switch LED footprints, this was changed.
 - The spacing of the 6U spacebar stabilizer is different. I am not sure if the original PCB has these incorrect, or if I am using a different 6U spacebar stabilizer footprint, but that is a discrepancy.
 
-I provide this PCB without liability and without any guarantees regarding functionality, as expressed in the licenses under which this PCB is licensed.
+## I provide this PCB without liability and without any guarantees regarding functionality, as expressed in the licenses under which this PCB is licensed.
 
 Front render:
 ![Render of front of J-01 Alps PCB](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_render_front.png)
