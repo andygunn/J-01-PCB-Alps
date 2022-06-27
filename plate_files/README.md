@@ -9,7 +9,7 @@ There are three files provided. These are:
 
 It is recommended to cut these files in material 1.2mm thick - any thicker may prevent the Alps switches from clipping in properly.
 
-I provide these plate files without liability and without any guarantees regarding functionality, as expressed in the licenses under which these plate files are licensed.
+## I provide these plate files without liability and without any guarantees regarding functionality, as expressed in the licenses under which these plate files are licensed.
 
 
 Alps-stabilizer plate file outline:
