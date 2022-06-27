@@ -13,10 +13,10 @@ I provide these plate files without liability and without any guarantees regardi
 
 
 Alps-stabilizer plate file outline:
-![Screenshot of Alps-stabilizer plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/renders/J-01_Alps_Alps-stab_plate_outline.png)
+![Screenshot of Alps-stabilizer plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_Alps-stab_plate_outline.png)
 
 MX stabilizer plate file outline:
-![Screenshot of MX-stabilizer plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/renders/J-01_Alps_MX-stab_plate_outline.png)
+![Screenshot of MX-stabilizer plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_MX-stab_plate_outline.png)
 
 FR4 plate file render:
-![Render of J-01 Alps FR4 plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/renders/J-01_Alps_FR4_MX-stab_plate_outline.png)
+![Render of J-01 Alps FR4 plate file](https://raw.githubusercontent.com/andygunn/J-01-PCB-Alps/main/renders/J-01_Alps_FR4_MX-stab_plate_outline.png)
