@@ -25,6 +25,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# Extra KiCad files
+kicad-footprints
+
 # Kicad backup files
 J-01-Alps-backups
 Archive
