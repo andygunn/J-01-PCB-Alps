@@ -1,11 +1,11 @@
 # J-01 Alps Plate Files
 
-These are some Alps-compatible plate files for the [J-01 keyboard](https://geekhack.org/index.php?topic=107597).
+These are some Alps-compatible plate files for the [J-01 keyboard](https://geekhack.org/index.php?topic=107597). These are derived from the original plate files found on the [Prototypist website](https://prototypist.net/pages/resources).
 
 There are three files provided. These are:
 * A .dxf of an Alps-stabilizer file. This utilizes an AT101 bottom row, but older Alps sets were all a bit different, so you may encounter issues with the placement of the stabilizer clips and the vertical pole guide. There are cutouts for a flipped spacebar orientation, but this is untested. You may need to adjust for your specific keyset.
-* A .dxf of an MX-stabilizer file. This is close to the production plate for the J-01 rev1, but with Alps switch cutouts. This is intended for DCS-style keycaps, with MX-stabilizer compatibility on all stabilized keys. Other keysets may not work, you may need to adjust for your specific keyset.
-* A set of Gerber files based on the MX-stabilizer file. The same notes and disclaimers apply here.
+* A .dxf of an MX-stabilizer file. This is close to the production plate for the J-01 rev1, but with Alps switch cutouts. This is intended for DCS-style keycaps, with MX-stabilizer compatibility on all stabilized keys. Other keysets may not work, you may need to adjust for your specific keyset. NOTE: This plate has not been fully tested, you may run into issues.
+* A set of Gerber files based on the MX-stabilizer file. The same notes and disclaimers apply here. NOTE: This plate has not been prototyped or tested in any way, you may run into issues.
 
 It is recommended to cut these files in material 1.2mm thick - any thicker may prevent the Alps switches from clipping in properly.
 
