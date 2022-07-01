@@ -1,6 +1,6 @@
 # J-01 Alps Plate Files
 
-These are some Alps-compatible plate files for the [J-01 keyboard](https://geekhack.org/index.php?topic=107597).
+These are some Alps-compatible plate files for the [J-01 keyboard](https://geekhack.org/index.php?topic=107597). These are derived from the original plate files found on the [Prototypist website](https://prototypist.net/pages/resources).
 
 There are three files provided. These are:
 * A .dxf of an Alps-stabilizer file. This utilizes an AT101 bottom row, but older Alps sets were all a bit different, so you may encounter issues with the placement of the stabilizer clips and the vertical pole guide. There are cutouts for a flipped spacebar orientation, but this is untested. You may need to adjust for your specific keyset.
