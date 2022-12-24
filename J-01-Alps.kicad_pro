@@ -421,7 +421,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "J-01-Alps.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
